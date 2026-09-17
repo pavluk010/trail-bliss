@@ -1,0 +1,96 @@
+.container {
+  max-width: 1264px;
+  padding: 0 10px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+.header {
+  padding-top: 20px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  background: #FEFCF7;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.header-link{
+    color: var(--Black, #161616);
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+
+.header-logo {
+  color: #161616;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.header-item {
+  color: #161616;
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.header-menu {
+  width: 24px;
+  height: 24px;
+}
+
+.header-btn {
+  background-color: transparent;
+  border: none;
+  margin-left: auto;
+}
+
+.header-leaf {
+  width: 20.1px;
+  height: 23.1px;
+  fill: orange;
+}
+
+@media (min-width: 382px) {
+  .container {
+    width: 382px;
+  }
+}
+
+@media (min-width: 1264px) {
+  .container {
+    width: 1264px;
+    padding: 0 12px;
+  }
+
+  .header {
+    padding-top: 40px;
+  }
+
+  .header-btn {
+    display: none;
+  }
+
+  .header-list {
+    display: flex;
+    gap: 32px;
+    margin-right: auto;
+  }
+}
