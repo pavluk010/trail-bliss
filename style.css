@@ -27,14 +27,12 @@ body {
 }
 
 .hero-text{
-  flex: 1 0 0;
-color:  #161616;
-font-family: Manrope;
-font-size: 72px;
-font-style: normal;
-font-weight: 700;
-line-height: 110%;
-padding-top: 189px;
+ color: #161616;
+  font-family: Manrope;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 110%;
+  text-align: center;
 
 }
 
@@ -42,15 +40,17 @@ padding-top: 189px;
   align-self: stretch;
 color:  #454444;
 font-family: Manrope;
-font-size: 24px;
+font-size: 22px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-padding-top: 189px;
+padding-top: 20px;
+margin: 0 auto;
 }
 
 .main-info{
   display: flex;
+  flex-direction: column;
 }
 
 
@@ -72,11 +72,12 @@ gap: 24px;
 .main-exploring{
 border-radius: 400px;
    display: flex;
-   width: 204.0px;
+   width: 230.0px;
     white-space: nowrap;
-
+margin: 0 auto;
     align-items: center;
     gap: 10px;
+    box-sizing: border-box;
 height: 61.0px;
 padding: 18px 22px;
 color: var(--Terratrip-White, #FFF);
@@ -88,7 +89,13 @@ line-height: normal;
 background-color: black;
 }
 
+.hero-details-mobile {
+  display: block;
+}
 
+.hero-details-desktop {
+  display: none;
+}
 
 .header-logo {
   color: #161616;
@@ -100,8 +107,40 @@ background-color: black;
   align-items: center;
   gap: 12px;
   text-decoration: none;
-margin: 0 auto;
+
 }
+
+
+.travel-tales{
+    align-self: stretch;
+color: var(--Black, #161616);
+text-align: center;
+font-family: Manrope;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%;
+  padding-top: 40px;
+
+}
+
+
+.travel-prepare{
+  align-self: stretch;
+color: var(--Black, #161616);
+text-align: center;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-top: 12px;
+}
+
+.img-street{
+  padding-top: 40px;
+}
+
 
 .header-item {
   color: #161616;
@@ -115,7 +154,13 @@ margin: 0 auto;
   width: 24px;
   height: 24px;
 }
-
+.header-listes{
+  display: none;
+ }
+ 
+  .header-list{
+    display: none;
+  }
 
 
 .header-btn {
@@ -128,6 +173,7 @@ margin: 0 auto;
   width: 20.1px;
   height: 23.1px;
   fill: orange;
+
 
 }
 
@@ -173,6 +219,15 @@ line-height: 110%;
     display: none;
   }
 
+
+
+.img-street{
+  width: 362.0px;
+height: 280.0px;
+margin: 0 auto;
+}
+
+
   .header-list {
     display: flex;
     gap: 32px;
@@ -198,9 +253,16 @@ line-height: normal;
   padding: 8px 14px;;
 }
 
+.main-info{
+  display: flex;
+  flex-direction: row;
+}
 
+ .hero-detales {
+    font-size: 24px;
+       margin-left: auto;
 
-
+  }
 
 
 .header-link{
@@ -212,4 +274,46 @@ font-weight: 500;
 line-height: normal;
 
 }
+
+
+ .main-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 189px;
+  }
+
+  .hero-text {
+    width: 60%;
+    text-align: left;
+    font-size: 72px;
+  }
+
+  .hero-right {
+    width: 40%;
+  }
+
+  .hero-detales {
+    margin: 0;
+    font-size: 24px;
+  }
+
+
+.img-street{
+  width: 1280.0px;
+height: 460.0px;
+margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
 }
