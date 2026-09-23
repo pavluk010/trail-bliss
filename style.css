@@ -54,6 +54,74 @@ margin: 0 auto;
 }
 
 
+.travel-explore{
+  align-self: stretch;
+color: var(--Black, #161616);
+text-align: center;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 41px;
+
+}
+
+
+.travel-img{
+  padding-bottom: 20px;
+}
+
+
+.travel-bcg{
+background: #D3F5FE;
+border-radius: 40px;
+padding-bottom: 20px;
+
+}
+
+.img-place{
+  padding-top: 20px;
+
+}
+
+.camels-img{
+  padding-top: 20px;
+}
+
+.place-icon{
+  width: 24.0px;
+height: 24.0px;
+background-color: #ED952B;
+border-radius: 99px;
+padding: 8px;
+}
+
+
+
+
+
+.travel-about{
+  align-self: stretch;
+color: var(--Gray-Dark, #454444);
+text-align: center;
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+
+
+.arrow-travel{
+  color: red;
+  width: 40.0px;
+height: 40.0px;
+
+}
+
+
 .arrow-btn{
 
 width: 24.0px;
@@ -107,7 +175,7 @@ background-color: black;
   align-items: center;
   gap: 12px;
   text-decoration: none;
-
+margin: 0 auto;
 }
 
 
@@ -219,12 +287,71 @@ line-height: 110%;
     display: none;
   }
 
+.about-travel .container{
+  gap: 24px;
+}
+
+
+ 
+.travel-explore{
+  align-self: stretch;
+color: var(--Black, #161616);
+font-family: Manrope;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 20px;
+
+}
+
+
+.bus-photo {
+    position: relative;
+}
+
+.bus-text {
+    position: absolute;
+    top: 270px;
+}
+.travel-img {
+  display: block;
+}
+
+.bus-text {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  color: var(--White, #FFF);
+font-family: Manrope;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+
+
+
+ .travel-about{
+  align-self: stretch;
+color: var(--Gray-Dark, #454444);
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+ }
+
+
 
 
 .img-street{
   width: 362.0px;
 height: 280.0px;
-margin: 0 auto;
+
 }
 
 
@@ -303,16 +430,63 @@ line-height: normal;
 .img-street{
   width: 1280.0px;
 height: 460.0px;
-margin: 0 auto;
+
 }
 
 
 
+.travel-about{
+  align-self: stretch;
+color: var(--Gray-Dark, #454444);
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
 
 
 
+.travel-img{
+  width: 397.0px;
+height: 300.0px;
+padding: 20px;
+
+}
 
 
+.travel-prepare,
+.travel-tales{
+  display: none;
+}
+
+.travel-bcg{
+  width: 292.0px;
+height: 360.0px;
+padding: 20px;
+
+}
+
+.img-place{
+  width: 292.0px;
+height: 360.0px;
+
+
+}
+
+.camels-img{
+  width: 187.0px;
+height: 220.0px;
+padding: 20px;
+
+}
+
+.about-travel .container{
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
 
 
 
