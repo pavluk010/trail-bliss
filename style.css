@@ -122,6 +122,9 @@ height: 40.0px;
 }
 
 
+
+
+
 .arrow-btn{
 
 width: 24.0px;
@@ -179,6 +182,10 @@ margin: 0 auto;
 }
 
 
+
+.company-image{}
+
+
 .travel-tales{
     align-self: stretch;
 color: var(--Black, #161616);
@@ -191,6 +198,139 @@ line-height: 120%;
   padding-top: 40px;
 
 }
+
+
+.company-title{
+  align-self: stretch;
+color: var(--Black, #161616);
+font-family: Manrope;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+padding-top: 20px;
+}
+
+
+.about-company{
+  align-self: stretch;
+color: #454444;
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+
+
+
+.company{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+
+.company-btn{
+  color: #161616;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+background-color: transparent;
+border-color: #161616;
+padding: 22px;
+border-radius: 20px;
+ display: flex;
+  align-items: center;
+  gap: 10px;
+margin: 0 auto;
+width: 178.0px;
+height: 50.0px;
+padding: 14px 18px;
+
+}
+
+.btn-svg{
+ display: block;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  flex-shrink: 0;
+fill: #161616;
+}
+
+
+
+
+.company-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+
+
+
+
+.company .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.company-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.company-title {
+    margin: 0;
+    color: #161616;
+    font-family: Manrope;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.company .container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.about-company {
+    margin: 24px 0 0;
+    color: #454444;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.company-btn {
+    margin-top: 40px;
+    width: fit-content;
+
+    color: #161616;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+
+    background-color: transparent;
+    border: 1px solid #161616;
+    border-radius: 20px;
+
+    padding: 22px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
 
 
 .travel-prepare{
@@ -488,6 +628,139 @@ padding: 20px;
   padding-bottom: 80px;
 }
 
+.company-title{
+  align-self: stretch;
+color: var(--Black, #161616);
+font-family: Manrope;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+padding-top: 120px;
+}
 
+
+.about-company{
+  align-self: stretch;
+color: #454444;
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-top: 24px;
+}
+
+
+
+.company{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+
+.company-btn{
+  color: #161616;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+background-color: transparent;
+border-color: #161616;
+padding: 22px;
+border-radius: 20px;
+ display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.btn-svg{
+ display: block;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  flex-shrink: 0;
+fill: #161616;
+}
+
+.building-img {
+    width: 503px;
+    height: 619px;
+    border-radius: 16px;
+    display: block;
+}
+
+
+.company-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.building-img {
+    display: block;
+}
+
+
+
+
+.company .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.company-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.company-title {
+    margin: 0;
+    color: #161616;
+    font-family: Manrope;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.about-company {
+    margin: 24px 0 0;
+    color: #454444;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+
+.company-btn {
+    margin-top: 40px;
+    width: fit-content;
+
+    color: #161616;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+
+    background-color: transparent;
+    border: 1px solid #161616;
+    border-radius: 20px;
+
+    padding: 22px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.building-img {
+    display: block;
+    width: 503px;
+    height: 619px;
+    border-radius: 16px;
+}
 
 }
