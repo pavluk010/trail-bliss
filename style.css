@@ -183,7 +183,7 @@ margin: 0 auto;
 
 
 
-.company-image{}
+
 
 
 .travel-tales{
@@ -225,6 +225,19 @@ line-height: normal;
 
 
 
+
+
+.moments{
+  color: var(--Black, #161616);
+font-family: Manrope;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+padding-bottom: 52px;
+}
+
+
 .company{
   padding-top: 120px;
   padding-bottom: 120px;
@@ -252,12 +265,13 @@ padding: 14px 18px;
 
 }
 
+
+
 .btn-svg{
  display: block;
   width: 50px;
   height: 50px;
-  background-color: red;
-  flex-shrink: 0;
+
 fill: #161616;
 }
 
@@ -273,6 +287,10 @@ fill: #161616;
 
 
 
+.moment-arrow{
+  width: 12.0px;
+height: 24.0px;
+}
 
 
 .company .container {
@@ -371,6 +389,47 @@ padding-top: 12px;
   }
 
 
+
+
+
+.moment-arrow {
+  width: 12px;
+  height: 24px;
+  transform: none;
+
+  padding: 8px 14px;
+  border: 1px solid #161616;
+  border-radius: 99px;
+}
+
+.moment-arrows {
+  width: 12px;
+  height: 24px;
+  transform: rotate(180deg);
+
+  padding: 8px 14px;
+  border: 1px solid #161616;
+  border-radius: 99px;
+}
+
+
+.moment-september{
+  color: var(--Trial-Black, #161616);
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0 auto;
+}
+
+
+
+
+
+
+
+
 .header-btn {
   background-color: transparent;
   border: none;
@@ -398,6 +457,11 @@ padding-top: 12px;
   }
 
 
+
+
+  
+
+
 .hero-text{
   align-self: stretch;
 color: var(--Black, #161616);
@@ -409,8 +473,26 @@ font-weight: 700;
 line-height: 110%;
 
 
+
+
 }
-  
+ .moment-arrows {
+  width: 12px;
+  height: 24px;
+  transform: rotate(180deg);
+  padding: 8px 14px;
+  border: 1px solid #161616;
+  border-radius: 99px;
+}
+
+.moment-arrow {
+  width: 12px;
+  height: 24px;
+  transform: none;
+  padding: 8px 14px;
+  border: 1px solid #161616;
+  border-radius: 99px;
+}
 }
 
 @media (min-width: 1264px) {
@@ -426,6 +508,17 @@ line-height: 110%;
   .header-btn {
     display: none;
   }
+
+
+.moment-september{
+  color: var(--Trial-Black, #161616);
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
 
 .about-travel .container{
   gap: 24px;
@@ -636,7 +729,7 @@ font-size: 48px;
 font-style: normal;
 font-weight: 700;
 line-height: 120%;
-padding-top: 120px;
+
 }
 
 
@@ -651,7 +744,22 @@ line-height: normal;
 padding-top: 24px;
 }
 
+.company .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 80px;
+}
 
+.company-content {
+  order: 1;
+}
+
+.company-image {
+  order: 2;
+  
+}
 
 .company{
   padding-top: 120px;
@@ -680,7 +788,7 @@ border-radius: 20px;
  display: block;
   width: 50px;
   height: 50px;
-  background-color: red;
+ 
   flex-shrink: 0;
 fill: #161616;
 }
@@ -736,6 +844,58 @@ fill: #161616;
     
 }
 
+.img-moment{
+  display: flex;
+  gap: 20px;
+}
+
+
+
+.traveller{
+  width: 660.0px;
+height: 409.0px;
+
+}
+
+.man-sea{
+  width: 660.0px;
+height: 409.0px;
+
+}
+
+
+  .moments {
+    display: flex;
+    align-items: center;
+gap: 12px; 
+
+ }
+
+
+}
+
+
+
+
+.moment-arrows {
+  width: 12px;
+  height: 24px;
+  transform: rotate(180deg);
+  padding: 8px 14px;
+  border: 1px solid #161616;
+  border-radius: 99px;
+}
+
+.moment-arrow {
+  width: 12px;
+  height: 24px;
+  padding: 8px 14px;
+  border: 1px solid #161616;
+  border-radius: 99px;
+}
+
+
+
 .company-btn {
     margin-top: 40px;
     width: fit-content;
@@ -763,4 +923,4 @@ fill: #161616;
     border-radius: 16px;
 }
 
-}
+
