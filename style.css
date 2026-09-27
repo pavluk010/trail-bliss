@@ -1,4 +1,8 @@
 
+* {
+  box-sizing: border-box;
+}
+
 .moment-arrows {
   width: 40px;
   height: 40px;
@@ -21,6 +25,11 @@
   margin: 0 auto;
   outline: 2px solid red;
 }
+
+
+
+
+
 
 body {
   font-family: "Manrope", sans-serif;
@@ -85,8 +94,6 @@ padding-top: 41px;
 }
 
 
-.travel-img{
-}
 
 
 .travel-bcg{
@@ -532,10 +539,237 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-
+display: flex; 
+justify-content: space-between;
+  align-items: center;
 margin-top: 32px;
 
 }
+
+
+
+.quastions-spec{
+  flex: 1 0 0;
+color: var(--Gray-Dark, #454444);
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 24px;
+}
+
+.footer{
+  margin-top: 50px;
+}
+
+
+
+.footer-leaf{
+  width: 22.1px;
+height: 24.0px;
+}
+
+
+.footer .container {
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+
+
+.footer-name{
+  color: var(--Black, #161616);
+font-family: Manrope;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%;
+
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-leaf {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-name {
+  margin: 8px 0 0;
+}
+
+
+.footer-street{
+  color: var(--Black, #161616);
+text-align: center;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 12px;
+}
+
+.footer-contact{
+  color: var(--Gray-Dark, #454444);
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 12px;
+
+}
+
+
+.contact-link{
+  color: var(--Gray-Dark, #454444);
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 12px;
+}
+
+
+
+.quick-links{
+  
+color: var(--Gray-Dark, #454444);
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 12px;
+
+}
+
+
+
+.footer-fill{
+  color: var(--Black, #161616);
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 12px;
+}
+
+.follow-links{
+  color: var(--Gray-Dark, #454444);
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+
+
+.footer-follow{
+  margin-top: 12px;
+}
+
+.footer-quick{
+  margin-top: 12px;
+}
+
+.footer-fill{
+    margin-top: 12px;
+
+}
+
+.quick-items{
+  margin-top: 12px;
+}
+
+
+.follow-items{
+    margin-top: 12px;
+justify-content: center;
+}
+
+
+
+.footer-title{
+  color: var(--Black, #161616);
+text-align: center;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 24px;
+}
+
+
+
+.footer-arrow {
+width: 28.7px;
+height: 28.7px;
+  --color1: #161616;
+ margin: 0 auto;
+justify-content: center;
+display: flex;
+padding: 2px;
+border: 2px solid #161616;
+border-radius: 99px;
+margin-top: 12px;
+
+}
+
+.footer-apps{
+  display: flex;
+  width: 20.0px;
+height: 16.3px;
+
+}
+
+
+.footer-apps{
+  margin-top: 40px;
+}
+
+
+.footer-apps-list{
+  display: flex;
+  gap: 24px;
+}
+
+
+.quastion-sect{
+  color: var(--Trial-Black, #161616);
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+
+
+
+.qualification{
+  color: var(--Black, #161616);
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 20px;
+}
+
+
 
 .partner-data {
     display: flex;
@@ -1194,7 +1428,11 @@ fill: #161616;
   border-radius: 99px;
 }
 
+.plus-img{
+  width: 20.0px;
+height: 20.0px;
 
+}
 
 .company-btn {
     margin-top: 40px;
@@ -1224,3 +1462,39 @@ fill: #161616;
 }
 
 
+
+.photo-wrapper {
+  position: relative;
+}
+
+.photo-wrapper img {
+  display: block;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 64px;
+  height: 64px;
+}
+
+.arrows-position {
+  display: flex;
+  gap: 12px;
+}
+
+.moment-arrows,
+.moment-arrow {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  display: block;
+  flex-shrink: 0;
+}
+
+.moment-arrows {
+  transform: rotate(180deg);
+}
