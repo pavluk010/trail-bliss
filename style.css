@@ -145,6 +145,17 @@ height: 40.0px;
 }
 
 
+.lapky-desk,
+.partner-inf{
+  display: none;
+}
+
+
+
+
+.michel{
+  display: none;
+}
 
 .man-sea{
   display: none;
@@ -172,13 +183,9 @@ gap: 24px;
 
 .main-exploring{
 border-radius: 400px;
-   display: flex;
+ 
    width: 230.0px;
-    white-space: nowrap;
-margin: 0 auto;
-    align-items: center;
     gap: 10px;
-    box-sizing: border-box;
 height: 61.0px;
 padding: 18px 22px;
 color: var(--Terratrip-White, #FFF);
@@ -214,7 +221,7 @@ margin: 0 auto;
 
 
 .september{
-  margin: 0 auto;
+  margin-top: 20px;
     text-align: center;
 color: #161616;
 font-family: Manrope;
@@ -225,7 +232,16 @@ line-height: normal;
 
 }
 
-
+.october{
+  
+    text-align: center;
+color: #161616;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
 
 
 
@@ -269,7 +285,9 @@ line-height: normal;
 
 
 
-
+.bus{
+  display: none;
+}
 
 .moments{
   color: var(--Black, #161616);
@@ -419,7 +437,15 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 margin-top: 16px;
+
+
 }
+
+
+
+
+
+
 
 
 
@@ -628,6 +654,9 @@ margin-top: 12px;
 
 }
 
+.quastion-sect{
+ margin-top: 24px;
+}
 
 .contact-link{
   color: var(--Gray-Dark, #454444);
@@ -839,8 +868,10 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-margin: 0 auto;
+
 }
+
+
 
 
 .street-image{
@@ -1218,6 +1249,15 @@ line-height: normal;
 
 }
 
+.main-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+
 
 
 .travel-img{
@@ -1226,6 +1266,25 @@ height: 300.0px;
 padding: 20px;
 
 }
+
+
+
+.moments{
+  color: var(--Black, #161616);
+font-family: Manrope;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+  text-align: left;
+}
+
+.man-sea,
+.traveller{
+  width: 660.0px;
+height: 409.0px;
+
+}
+
 
 
 .travel-prepare,
@@ -1325,6 +1384,106 @@ border-radius: 20px;
 
 
 
+.partner-title{
+  width: 397.0px;
+height: 116.0px;
+align-self: stretch;
+color: var(--Black, #161616);
+font-family: Manrope;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+
+}
+
+
+.partner-offer{
+  align-self: stretch;
+color: var(--Gray-Dark, #454444);
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+
+.section-partner .partner-title,
+.section-partner .partner-offer,
+.section-partner .partner-arrows {
+  margin-left: 0;
+  margin-right: auto;
+  text-align: left;
+      justify-content: flex-start;
+
+}
+
+.partner-arrows{
+  margin-top: 50px;
+}
+
+
+.michel{
+  width: 40.0px;
+height: 40.0px;
+
+}
+
+
+
+.quastions-title{
+  color: var(--Black, #161616);
+text-align: center;
+font-family: Manrope;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+margin-bottom: 40px;
+}
+
+
+
+.quastions-umbrella{
+  width: 503.0px;
+height: 580.0px;
+border-radius: 20px;
+}
+
+
+
+.october{
+  
+    text-align: center;
+margin-top: 20px;
+}
+
+
+
+.price-flex{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+
+
+.about-planning .container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.planning-side{
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+
+
 
 
 .btn-svg{
@@ -1344,6 +1503,226 @@ fill: #161616;
 }
 
 
+.street-image{
+  width: 503.0px;
+height: 500.0px;
+
+}
+
+
+
+
+.travel-planning{
+  width: 608.0px;
+height: 174.0px;
+align-self: stretch;
+color: var(--Trial-Black, #161616);
+font-family: Manrope;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+
+}
+
+
+
+.planning-offer{
+  align-self: stretch;
+color: var(--Gray-Dark, #454444);
+font-family: Manrope;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 608.0px;
+height: 54.0px;
+
+}
+
+.partner-inf,
+.lapky-desk{
+  display: block;
+}
+
+
+.partner-inf{
+  color: #000;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+ .partner-review {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .partner-review .lapky {
+    margin: 0 0 20px 0;
+  }
+
+  .partner-review .partner-info {
+    width: 500px;
+    height: auto;
+    margin: 0;
+  }
+
+  .partner-review .text-position {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+  }
+
+  .partner-data {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+.section-partner .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.partner-trusted {
+  width: 397px;
+  flex-shrink: 0;
+}
+
+.partner-review {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 500px;
+}
+
+.partner-review .lapky {
+  margin: 0 0 20px 0;
+}
+
+.partner-review .partner-info {
+  width: 500px;
+  height: auto;
+  margin: 0;
+}
+
+.partner-review .text-position {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+.section-partner .container {
+  display: flex;
+  align-items: flex-start;
+  gap: 100px;
+}
+
+.partner-trusted {
+  width: 397px;
+}
+
+.partner-reviews {
+  display: flex;
+  gap: 60px;
+}
+
+.partner-review {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.partner-review .partner-info,
+.partner-review .partner-inf {
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+.text-position {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.partner-data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.michel {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.michel-name,
+.michel-place {
+  margin: 0;
+}
+
+
+
+
+
+
+  
+.michel-name{
+    color:  #161616;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.michel-place{
+  color: var(--Gray-Dark, #454444);
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+ .quastions-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+  }
+
+  .quastions-umbrella {
+    width: 500px;
+  }
+
+  .guide-inform {
+    flex: 1;
+  }
+
+
+.michel{
+  display: block;
+}
+
 .company-bottom {
     display: flex;
     justify-content: space-between;
@@ -1355,7 +1734,37 @@ fill: #161616;
 }
 
 
+.guide-inform {
+  width: 100%;
+}
 
+.quastion-kind,
+.quastion-sect {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.plus-img {
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.footer-leaf,
+.footer-name,
+.footer-street{
+margin-right:  auto;
+}
+
+
+
+
+
+
+
+.quastions{
+  margin-bottom: 140px;
+}
 
 .company .container {
     display: flex;
@@ -1387,10 +1796,48 @@ fill: #161616;
     
 }
 
+
+.september-price {
+  text-align: left;
+  margin: 0;
+}
+
+.september-price .september,
+.september-price .explore,
+.september-price .discover {
+  text-align: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+.october-price .october,
+.october-price .explore,
+.october-price .discover {
+   text-align: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.month-center{
+  display: flex;
+gap: 150px;
+}
+
+
+
 .img-moment{
   display: flex;
   gap: 20px;
 }
+
+
+
+
+.quastion-sect{
+ margin-top: 24px;
+}
+
 
 
 
@@ -1399,11 +1846,7 @@ fill: #161616;
   gap: 20px;
 }
 
-.traveller,
-.man-sea {
-  width: calc((100% - 20px) / 2);
-  height: auto;
-}
+
 
 
 }
