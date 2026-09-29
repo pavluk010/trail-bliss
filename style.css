@@ -523,6 +523,27 @@ margin: 0 auto;
 }
 
 
+
+.camels-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.camels-img {
+    display: block;
+    width: 100%;
+}
+
+.place-icon {
+    position: absolute;
+    top: 420%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 60px;
+    height: 60px;
+}
+
 .partner-place{
   color: var(--Gray-Dark, #454444);
 font-family: Manrope;
@@ -1038,7 +1059,25 @@ line-height: 110%;
     margin-top:  40px;
   }
 
+.camels-wrapper {
+    position: relative;
+    display: inline-block;
+}
 
+.camels-img {
+    display: block;
+    width: 100%;
+}
+
+.place-icon {
+    position: absolute;
+    top: 420%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 60px;
+    height: 60px;
+}
 
 
  .moment-arrows {
@@ -1470,7 +1509,6 @@ margin-top: 20px;
 
 
 
-
 .about-planning .container {
   display: flex;
   flex-direction: row;
@@ -1591,6 +1629,32 @@ line-height: normal;
   justify-content: space-between;
   gap: 100px;
 }
+
+
+
+
+.camels-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.camels-img {
+    display: block;
+    width: 100%;
+}
+
+.place-icon {
+    position: absolute;
+    top: 172%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+
+    width: 60px;
+    height: 60px;
+}
+
+
+
 
 .partner-trusted {
   width: 397px;
@@ -1797,6 +1861,55 @@ margin-right:  auto;
 }
 
 
+.footer-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-brand {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-title-wrap {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-apps-list {
+    display: flex;
+    gap: 12px;
+    order: 2;
+}
+
+.qualification {
+    order: 1;
+}
+
+
 .september-price {
   text-align: left;
   margin: 0;
@@ -1940,4 +2053,26 @@ height: 20.0px;
 
 .moment-arrows {
   transform: rotate(180deg);
+}
+
+
+.moments-title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.moments {
+    margin: 0;
+}
+
+.arrows-position {
+    display: flex;
+    gap: 8px;
+    margin-left: auto;
+}
+
+.moment-arrow {
+    width: 40px;
+    height: 40px;
 }
